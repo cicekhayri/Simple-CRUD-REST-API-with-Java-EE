@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tomee>
+    <Resource id="jdbc/my_h2_db" type="javax.sql.DataSource">
+        JdbcDriver = org.h2.Driver
+        JdbcUrl = jdbc:h2:file:~/my_h2_db
+        UserName = sa
+        Password = sa
+        jtaManaged = true
+    </Resource>
+</tomee>
